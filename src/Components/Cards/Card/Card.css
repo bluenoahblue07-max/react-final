@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}
+
+.card-poster {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    background-color: #d3d3d3;
+}
+
+.card-poster-placeholder {
+    display: grid;
+    place-items: center;
+    color: #555;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card-title {
+    margin: 0 0 8px;
+}
+
+.card-subtitle {
+    margin: 0;
+}

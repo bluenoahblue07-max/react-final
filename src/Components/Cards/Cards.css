@@ -1,0 +1,14 @@
+.cards-container {
+    width: min(100% - 32px, 1200px);
+    margin: 24px auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.cards-message {
+    text-align: center;
+}
